@@ -12,9 +12,8 @@ a {
 }
 
 header {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+
+    padding: 20px 50px;
 }
 
 nav {
@@ -109,7 +108,7 @@ h2 {
     display: block;
     width: 100%;
     margin-bottom: 40px;
-    text-align: left;
+    text-align: left; 
 }
 
 #projects .project img {
