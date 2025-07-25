@@ -12,9 +12,7 @@ a {
 }
 
 header {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+    padding: 20px 50px;
 }
 
 nav {
@@ -104,6 +102,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
+    border-bottom: 1px solid #222;
 }
 
 #experience .job:last-child {
