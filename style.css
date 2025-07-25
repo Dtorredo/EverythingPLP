@@ -1,0 +1,150 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    padding: 20px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nav-links a {
+    margin: 0 15px;
+}
+
+.button {
+    background-color: #fff;
+    color: #111;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #aaa;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.hero .availability {
+    display: block;
+    margin-top: 20px;
+    color: #0f0;
+}
+
+main {
+    padding: 0 50px;
+}
+
+section {
+    padding: 50px 0;
+    border-bottom: 1px solid #333;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+#about p {
+    max-width: 800px;
+}
+
+#experience .job {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #222;
+}
+
+#experience .job:last-child {
+    border-bottom: none;
+}
+
+#projects {
+    text-align: center;
+}
+
+#projects .project {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+    text-align: left;
+}
+
+#projects .project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#projects .project h3 {
+    margin: 15px 0;
+}
+
+#projects .project p {
+    color: #aaa;
+}
+
+#projects .tags span {
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#contact .button {
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0;
+    color: #aaa;
+}
