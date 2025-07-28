@@ -10,12 +10,14 @@
     right: 20px;
     z-index: 1000;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1); 
     border-radius: 25px;
-    padding: 8px;
+    padding: 2px;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: none; 
 }
+
+
 
 .switch-slider {
     width: 40px;
@@ -316,6 +318,7 @@ footer {
     transform: translateX(30px);
 }
 
+
 /* Content switching */
 #theme-toggle:checked ~ .page-container .miraya-content {
     display: none;
@@ -350,3 +353,15 @@ nav i {
 #theme-toggle:checked ~ .page-container nav i {
   color: #000; 
 }
+
+
+#theme-toggle:checked + .theme-switch .switch-slider {
+  background: #ccc; 
+}
+
+
+#theme-toggle:checked + .theme-switch .switch-slider::before {
+  background: #000; 
+  transform: translateX(20px);
+}
+
