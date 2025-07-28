@@ -337,9 +337,6 @@ footer {
     background-color: #eee;
 }
 
-header nav {
-  background-color: #111; 
-}
 
 #theme-toggle:checked ~ .page-container header nav {
   background-color: rgba(255, 255, 255, 0.75);
