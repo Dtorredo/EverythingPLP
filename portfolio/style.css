@@ -3,7 +3,6 @@
     display: none;
 }
 
-/* Toggle Switch Styling */
 .theme-switch {
     position: fixed;
     top: 50px;
@@ -354,12 +353,32 @@ footer {
     display: block;
 }
 
+/* Original content switching */
 #theme-toggle:checked ~ .page-container .derrick-content {
     display: none;
 }
 
 #theme-toggle:checked ~ .page-container .jackie-content {
     display: block;
+}
+
+nav .derrick-content, nav .jackie-content {
+    display: none; 
+}
+
+nav .derrick-content {
+    display: flex;
+    align-items: center;
+}
+
+
+#theme-toggle:checked ~ .page-container nav .derrick-content {
+    display: none;
+}
+
+#theme-toggle:checked ~ .page-container nav .jackie-content {
+    display: flex;
+    align-items: center;
 }
 
 #theme-toggle:checked ~ header nav {
@@ -394,5 +413,39 @@ nav i {
 #theme-toggle:checked + .theme-switch .switch-slider::before {
   background: #000; 
   transform: translateX(20px);
+}
+
+/* Fade-in Animation(looks cool)*/
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+/* After how long each section renders */
+#about {
+  animation-delay: 0.8s;
+}
+
+#experience {
+  animation-delay: 1s;
+}
+
+#projects {
+  animation-delay: 1.2s;
+}
+
+#contact {
+  animation-delay: 1.4s;
 }
 
