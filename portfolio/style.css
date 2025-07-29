@@ -8,7 +8,7 @@
     position: fixed;
     top: 50px;
     right: 20px;
-    z-index: 1000;
+    z-index: 1001;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.1); 
     border-radius: 25px;
@@ -38,6 +38,32 @@
     top: 2px;
     left: 2px;
     transition: all 0.3s ease;
+}
+
+.portfolio-toggle {
+    position: fixed;
+    top: 100px; 
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.dark-icon {
+    width: 300px; 
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -125px;
+    right: -30px;
+}
+
+.light-icon {
+    width: 350px; 
+    height: auto;
+    display: none;
+    position: absolute;
+    top: -90px;
+    right: -50px;
 }
 
 /* Default state - Dark mode (Derrick's portfolio) */
@@ -320,6 +346,14 @@ footer {
 
 
 /* Content switching */
+#theme-toggle:checked ~ .portfolio-toggle .dark-icon {
+    display: none;
+}
+
+#theme-toggle:checked ~ .portfolio-toggle .light-icon {
+    display: block;
+}
+
 #theme-toggle:checked ~ .page-container .miraya-content {
     display: none;
 }
