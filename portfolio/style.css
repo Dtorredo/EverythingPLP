@@ -274,15 +274,15 @@ footer {
 }
 
 /* Content containers for each portfolio */
-.miraya-content {
+.derrick-content {
     display: block;
 }
 
-.partner-content {
+.jackie-content {
     display: none;
 }
 
-/* Light mode (Partner's portfolio) */
+/* Light mode (Jackie's portfolio) */
 #theme-toggle:checked ~ .page-container {
     background-color: #fff;
     color: #333;
@@ -354,11 +354,11 @@ footer {
     display: block;
 }
 
-#theme-toggle:checked ~ .page-container .miraya-content {
+#theme-toggle:checked ~ .page-container .derrick-content {
     display: none;
 }
 
-#theme-toggle:checked ~ .page-container .partner-content {
+#theme-toggle:checked ~ .page-container .jackie-content {
     display: block;
 }
 
