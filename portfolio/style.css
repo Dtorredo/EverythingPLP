@@ -133,9 +133,26 @@ nav {
     align-items: center;
 }
 
-.nav-social-group a {
+.nav-social-group a{
     margin: 0 12px;
     font-size: 1.4em;
+    position: relative;
+}
+
+/*Effect where a small line appears as you hover over each icon*/
+.nav-social-group a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #00bfff;
+    transition: width 0.3s;
+}
+
+.nav-social-group a:hover::after{
+    width: 100%;
 }
 
 .hero .avatar {
@@ -225,6 +242,12 @@ h2 {
     border-radius: 10px;
     margin: 20px auto;
     padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+/*in dark mode, adding a light color so that the hover effect is visible (shadow)*/
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
 }
 
 .project-image-placeholder {
@@ -311,6 +334,14 @@ footer {
 
 #theme-toggle:checked ~ .page-container .project-card {
     border: 1px solid #eee;
+}
+
+
+/*due to some changes made for the cards, adding this ensures that in light mode 
+the hover effect (esp the box shadow) is actually visible*/
+
+#theme-toggle:checked ~ .page-container .project-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 #theme-toggle:checked ~ .page-container .project-image-placeholder {
