@@ -236,6 +236,7 @@ h2 {
 
 #about p {
     max-width: 800px;
+    font-size: 0.98em;
 }
 
 #experience .job {
