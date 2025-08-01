@@ -117,8 +117,19 @@ nav {
 
 
 
-.nav-home-link {
-    font-size: 1.5em;
+.nav-home-link img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-social-group a img {
+    width: 22.4px;
+    height: 22.4px;
+    filter: invert(1); /* black icons to white (for dark mode visibility) */
+}
+
+#theme-toggle:checked ~ .page-container .nav-social-group a img {
+    filter: none;
 }
 
 .nav-separator {
@@ -135,7 +146,6 @@ nav {
 
 .nav-social-group a{
     margin: 0 12px;
-    font-size: 1.4em;
     position: relative;
     transition: opacity 0.3s ease;
 }
@@ -448,6 +458,10 @@ footer {
     color: #333;
 }
 
+#theme-toggle:checked ~ .page-container .nav-social-group a img {
+    filter: none;
+}
+
 #theme-toggle:checked ~ .page-container .button {
     background-color: #fff;
     color: #333;
@@ -563,13 +577,7 @@ nav .derrick-content {
 }
 
 
-nav i {
-  color: #fff; 
-}
 
-#theme-toggle:checked ~ .page-container nav i {
-  color: #000; 
-}
 
 
 #theme-toggle:checked + .theme-switch .switch-slider {
