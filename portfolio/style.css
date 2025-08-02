@@ -259,6 +259,46 @@ h2 {
     border-bottom: none;
 }
 
+/* Some rectangles surrounding the links to external websites in the work experience area */
+#experience .job a[href^="http"]:not([href="#"]) {
+    padding: 3px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    border: 3px solid;
+}
+
+#experience .derrick-content .job:nth-child(3) a[href^="http"] {
+    background-color: #FFF4A4; 
+    border-color: #FFD700;
+    color: #000;
+}
+
+#experience .derrick-content .job:nth-child(4) a[href^="http"] {
+    background-color: #ffcccc; 
+    border-color: #a30000;
+    color: #fff;
+}
+
+#experience .jackie-content .job:nth-of-type(1) a[href^="http"] {
+    background-color: #ffe6f0;
+    border-color: #cc8090;
+    color: #000;
+}
+
+#experience .jackie-content .job:nth-of-type(3) a[href^="http"] {
+    background-color: #93DA97;
+    border-color: #5a9b5a;
+    color: #000;
+}
+
+#experience .job a[href="https://www.powerlearnprojectafrica.org/"] {
+    background-color: #5EABD6; 
+    border: 3px solid #00315c !important;
+    color: #000;
+}
+
 
 /*Adding some pictures to show things we enjoy doing*/
 #hobbies .derrick-content {
