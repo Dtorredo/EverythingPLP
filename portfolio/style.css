@@ -703,30 +703,3 @@ section {
     }
 }
 
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 2em;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-    .nav-separator {
-        display: none;
-    }
-
-    .nav-social-group {
-        margin: 10px 0;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .hero .availability {
-        margin-top: 10px;
-        margin-left: 0;
-    }
-}
