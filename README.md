@@ -1,5 +1,5 @@
-# 🌍 PLP Africa July 2025 Cohort Hackathon  
-## **Dual Portfolio – Derrick & Jackie**
+## 🌍 PLP Africa July 2025 Cohort Hackathon  
+### **Dual Portfolio – Jackie & I**
 
 > _One website. Two portfolios. Toggle between dark & light mode with style._
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📝 Overview  
+### 📝 Overview  
 
 Why create **two separate portfolios** when you can merge them into **one seamless experience**?  
 
@@ -22,7 +22,7 @@ Switch between our portfolios effortlessly with a **cool, interactive theme togg
 
 ---
 
-## ✨ Features  
+### ✨ Features  
 
 - 🎭 **Dual Portfolios** – One website, two complete profiles.  
 - 🌗 **Creative Theme Toggle** – Switch between Derrick’s **dark theme** and Jackie’s **light theme** in a single click.  
@@ -37,7 +37,7 @@ Switch between our portfolios effortlessly with a **cool, interactive theme togg
 
 ---
 
-## 🛠 Technologies Used  
+### 🛠 Technologies Used  
 
 | Technology | Purpose |
 |------------|---------|
@@ -46,13 +46,13 @@ Switch between our portfolios effortlessly with a **cool, interactive theme togg
 
 ---
 
-## 🚀 Live Demo  
+### 🚀 Live Demo  
 
 🎯 **Check it out here:** [**Live Demo**](https://everything-plp.vercel.app/)  
 
 ---
 
-## 📂 How to Run Locally  
+### 📂 How to Run Locally  
 
 ```bash
 # Clone the repository
